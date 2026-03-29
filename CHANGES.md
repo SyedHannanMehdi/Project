@@ -1,6 +1,5 @@
-# Pending Changes
+# Changelog
 
-This branch was created in response to Issue #12.
+## Unreleased
 
-The issue description did not contain specific implementation requirements.
-Please see the pull request for details and clarification questions.
+- Initial work related to issue #12. Further user-facing changes will be documented here as they are introduced.
