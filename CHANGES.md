@@ -1,18 +1,23 @@
-# UI Changes — Issue #17
+# UI Update Changes — Issue #17
 
-## Summary
+## Overview
 
-This PR addresses the UI update request filed in issue #17.
+This document tracks and clarifies the scope of UI updates requested in Issue #17.
+No UI code changes are included in this PR — this file serves as a planning placeholder until concrete requirements and designs are confirmed.
 
-### Changes Made
+## Planned / Proposed Changes
 
-- General UI consistency improvements
-- Updated component styling to align with current design standards
-- Improved accessibility attributes across interactive elements
-- Ensured responsive layout integrity on mobile and desktop viewports
+> ⚠️ **Note:** The items listed below are *proposed* improvements that have not yet been implemented. This section will be updated as work progresses.
 
-### Notes
+- Improve overall visual consistency and spacing across pages
+- Enhance accessibility (ARIA labels, keyboard navigation, colour contrast ratios)
+- Implement responsive layout improvements for mobile and tablet viewports
+- Refine component styling to align with updated design guidelines
 
-The original issue description did not specify exact UI elements to change.
-This PR serves as a baseline update and placeholder for further refinements.
-Please comment on this PR with specific UI requirements so additional targeted changes can be made.
+## Status
+
+- [ ] Requirements confirmed with stakeholders
+- [ ] Design mockups approved
+- [ ] UI code changes implemented
+- [ ] Tests updated / added
+- [ ] PR ready for final review
