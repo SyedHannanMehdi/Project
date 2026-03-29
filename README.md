@@ -1,6 +1,6 @@
-# Project
+# Golden Memories
 
-A modern, open-source project built for reliability and developer experience.
+> A React Native mobile app for preserving and sharing your most treasured memories.
 
 ---
 
@@ -9,11 +9,7 @@ A modern, open-source project built for reliability and developer experience.
 - [Overview](#overview)
 - [Features](#features)
 - [Getting Started](#getting-started)
-  - [Prerequisites](#prerequisites)
-  - [Installation](#installation)
-  - [Running the Project](#running-the-project)
 - [Usage](#usage)
-- [Configuration](#configuration)
 - [Contributing](#contributing)
 - [License](#license)
 
@@ -21,16 +17,18 @@ A modern, open-source project built for reliability and developer experience.
 
 ## Overview
 
-**Project** is an open-source repository maintained by [organization2025](https://github.com/organization2025). This README provides all the information you need to get started, contribute, and understand the project structure.
+**Golden Memories** is a cross-platform mobile application built with React Native and Expo. It allows users to capture, store, and revisit their favorite moments in a beautiful, easy-to-use interface. The project is maintained by [organization2025](https://github.com/organization2025).
+
+Golden Memories is designed to be lightweight, intuitive, and accessible on both iOS and Android devices, as well as in a web browser via Expo Web.
 
 ---
 
 ## Features
 
-- ✅ Clean, maintainable codebase
-- ✅ Easy setup and configuration
-- ✅ Open to community contributions
-- ✅ Well-documented API and usage patterns
+- 📸 Capture and store personal memories
+- 🗂️ Organize memories by date or category
+- 📱 Cross-platform: iOS, Android, and Web
+- ⚡ Built with Expo for fast development and easy deployment
 
 ---
 
@@ -38,11 +36,9 @@ A modern, open-source project built for reliability and developer experience.
 
 ### Prerequisites
 
-Before you begin, ensure you have the following installed:
-
-- [Node.js](https://nodejs.org/) (v18 or higher recommended)
-- [npm](https://www.npmjs.com/) or [yarn](https://yarnpkg.com/)
-- [Git](https://git-scm.com/)
+- [Node.js](https://nodejs.org/) (v16 or higher recommended)
+- [npm](https://www.npmjs.com/) (comes with Node.js)
+- [Expo CLI](https://docs.expo.dev/get-started/installation/)
 
 ### Installation
 
@@ -57,74 +53,59 @@ Before you begin, ensure you have the following installed:
 
    ```bash
    npm install
-   # or
-   yarn install
    ```
 
-### Running the Project
+3. **Run the project:**
 
-```bash
-npm start
-# or
-yarn start
-```
-
-For development mode with hot-reloading:
-
-```bash
-npm run dev
-# or
-yarn dev
-```
+   ```bash
+   npm start
+   ```
 
 ---
 
 ## Usage
 
-After installation, you can use the project as follows:
+After starting the development server with `npm start`, you can run the app on your preferred platform using the following commands:
 
-```bash
-# Example command or usage snippet
-npm run build
-```
+- **Android:**
+  ```bash
+  npm run android
+  ```
 
-Refer to the [docs](./docs) folder (if available) for detailed API references and usage guides.
+- **iOS:**
+  ```bash
+  npm run ios
+  ```
 
----
+- **Web:**
+  ```bash
+  npm run web
+  ```
 
-## Configuration
-
-Copy the example environment file and adjust values as needed:
-
-```bash
-cp .env.example .env
-```
-
-| Variable       | Description                  | Default     |
-|----------------|------------------------------|-------------|
-| `PORT`         | Port the server listens on   | `3000`      |
-| `NODE_ENV`     | Runtime environment          | `development` |
+Expo will open a browser tab with the Metro bundler. Follow the on-screen instructions to launch the app on a simulator, emulator, or physical device via the Expo Go app.
 
 ---
 
 ## Contributing
 
-Contributions are welcome! Please follow these steps:
+Contributions are welcome! To get started:
 
-1. Fork the repository
-2. Create a new branch: `git checkout -b feature/your-feature-name`
-3. Make your changes and commit: `git commit -m "feat: add your feature"`
-4. Push to your branch: `git push origin feature/your-feature-name`
-5. Open a Pull Request against `main`
+1. Fork the repository.
+2. Create a new branch for your feature or bugfix:
+   ```bash
+   git checkout -b feature/your-feature-name
+   ```
+3. Make your changes and commit them with clear messages.
+4. Push your branch and open a pull request against `main`.
 
-Please read our [Contributing Guidelines](./CONTRIBUTING.md) (if available) before submitting a PR.
+Please ensure your code follows the existing project conventions and that all existing functionality continues to work before submitting.
 
 ---
 
 ## License
 
-This project is licensed under the [MIT License](./LICENSE).
+This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
 
 ---
 
-> Built with ❤️ by [organization2025](https://github.com/organization2025)
+*Golden Memories — cherish every moment.*
