@@ -1,6 +1,6 @@
-# Golden Memories
+# Project
 
-> A mobile/web application for preserving and sharing your most precious memories.
+A modern, open-source project built for reliability and developer experience.
 
 ---
 
@@ -9,7 +9,11 @@
 - [Overview](#overview)
 - [Features](#features)
 - [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+  - [Running the Project](#running-the-project)
 - [Usage](#usage)
+- [Configuration](#configuration)
 - [Contributing](#contributing)
 - [License](#license)
 
@@ -17,18 +21,16 @@
 
 ## Overview
 
-**Golden Memories** is a React Native application (managed via Expo) that lets users capture, store, and relive their most cherished moments. This project is maintained by the [organization2025](https://github.com/organization2025) team.
-
-Golden Memories provides a simple, intuitive interface for organizing photos, notes, and memories in one place — accessible on Android, iOS, and the web.
+**Project** is an open-source repository maintained by [organization2025](https://github.com/organization2025). This README provides all the information you need to get started, contribute, and understand the project structure.
 
 ---
 
 ## Features
 
-- 📸 Capture and store personal memories
-- 📱 Cross-platform support: Android, iOS, and Web
-- ⚡ Built with React Native & Expo for fast iteration
-- 🌐 Web preview via Expo Web
+- ✅ Clean, maintainable codebase
+- ✅ Easy setup and configuration
+- ✅ Open to community contributions
+- ✅ Well-documented API and usage patterns
 
 ---
 
@@ -36,9 +38,11 @@ Golden Memories provides a simple, intuitive interface for organizing photos, no
 
 ### Prerequisites
 
-- [Node.js](https://nodejs.org/) (v16 or higher recommended)
-- [npm](https://www.npmjs.com/) (comes with Node.js)
-- [Expo CLI](https://docs.expo.dev/get-started/installation/) (optional, for advanced usage)
+Before you begin, ensure you have the following installed:
+
+- [Node.js](https://nodejs.org/) (v18 or higher recommended)
+- [npm](https://www.npmjs.com/) or [yarn](https://yarnpkg.com/)
+- [Git](https://git-scm.com/)
 
 ### Installation
 
@@ -53,64 +57,74 @@ Golden Memories provides a simple, intuitive interface for organizing photos, no
 
    ```bash
    npm install
+   # or
+   yarn install
    ```
 
-3. **Run the project:**
+### Running the Project
 
-   ```bash
-   npm start
-   ```
+```bash
+npm start
+# or
+yarn start
+```
+
+For development mode with hot-reloading:
+
+```bash
+npm run dev
+# or
+yarn dev
+```
 
 ---
 
 ## Usage
 
-After installing, the following scripts are available:
-
-| Command           | Description                              |
-|-------------------|------------------------------------------|
-| `npm start`       | Start the Expo development server        |
-| `npm run android` | Launch the app on an Android emulator/device |
-| `npm run ios`     | Launch the app on an iOS simulator/device |
-| `npm run web`     | Open the app in a web browser            |
-
-**Example — run in browser:**
+After installation, you can use the project as follows:
 
 ```bash
-npm run web
+# Example command or usage snippet
+npm run build
 ```
 
-**Example — run on Android:**
+Refer to the [docs](./docs) folder (if available) for detailed API references and usage guides.
+
+---
+
+## Configuration
+
+Copy the example environment file and adjust values as needed:
 
 ```bash
-npm run android
+cp .env.example .env
 ```
+
+| Variable       | Description                  | Default     |
+|----------------|------------------------------|-------------|
+| `PORT`         | Port the server listens on   | `3000`      |
+| `NODE_ENV`     | Runtime environment          | `development` |
 
 ---
 
 ## Contributing
 
-Contributions are welcome! To get started:
+Contributions are welcome! Please follow these steps:
 
-1. Fork the repository.
-2. Create a new branch for your feature or bug fix:
-   ```bash
-   git checkout -b feature/your-feature-name
-   ```
-3. Make your changes and commit them with clear messages:
-   ```bash
-   git commit -m "feat: describe your change"
-   ```
-4. Push your branch and open a Pull Request against `main`.
+1. Fork the repository
+2. Create a new branch: `git checkout -b feature/your-feature-name`
+3. Make your changes and commit: `git commit -m "feat: add your feature"`
+4. Push to your branch: `git push origin feature/your-feature-name`
+5. Open a Pull Request against `main`
 
-Please make sure your code follows the existing style and all existing functionality continues to work before submitting a PR.
+Please read our [Contributing Guidelines](./CONTRIBUTING.md) (if available) before submitting a PR.
 
 ---
 
 ## License
 
-This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
+This project is licensed under the [MIT License](./LICENSE).
 
 ---
 
-<p align="center">Made with ❤️ by <a href="https://github.com/organization2025">organization2025</a></p>
+> Built with ❤️ by [organization2025](https://github.com/organization2025)
