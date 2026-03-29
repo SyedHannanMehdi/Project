@@ -1,6 +1,6 @@
-# Project
+# Golden Memories
 
-A modern, open-source project built for the community.
+> A mobile/web application for preserving and sharing your most precious memories.
 
 ---
 
@@ -9,8 +9,6 @@ A modern, open-source project built for the community.
 - [Overview](#overview)
 - [Features](#features)
 - [Getting Started](#getting-started)
-  - [Prerequisites](#prerequisites)
-  - [Installation](#installation)
 - [Usage](#usage)
 - [Contributing](#contributing)
 - [License](#license)
@@ -19,17 +17,18 @@ A modern, open-source project built for the community.
 
 ## Overview
 
-This repository contains the source code for **Project** — an open-source initiative maintained by [organization2025](https://github.com/organization2025).
+**Golden Memories** is a React Native application (managed via Expo) that lets users capture, store, and relive their most cherished moments. This project is maintained by the [organization2025](https://github.com/organization2025) team.
 
-> _A brief description of what this project does and the problem it solves should be added here._
+Golden Memories provides a simple, intuitive interface for organizing photos, notes, and memories in one place — accessible on Android, iOS, and the web.
 
 ---
 
 ## Features
 
-- ✅ Clean, maintainable codebase
-- ✅ Open-source and community-driven
-- ✅ Easy to set up and contribute to
+- 📸 Capture and store personal memories
+- 📱 Cross-platform support: Android, iOS, and Web
+- ⚡ Built with React Native & Expo for fast iteration
+- 🌐 Web preview via Expo Web
 
 ---
 
@@ -37,11 +36,9 @@ This repository contains the source code for **Project** — an open-source init
 
 ### Prerequisites
 
-Make sure you have the following installed before proceeding:
-
-- [Node.js](https://nodejs.org/) (v18 or higher recommended)
-- [npm](https://www.npmjs.com/) or [yarn](https://yarnpkg.com/)
-- [Git](https://git-scm.com/)
+- [Node.js](https://nodejs.org/) (v16 or higher recommended)
+- [npm](https://www.npmjs.com/) (comes with Node.js)
+- [Expo CLI](https://docs.expo.dev/get-started/installation/) (optional, for advanced usage)
 
 ### Installation
 
@@ -56,34 +53,37 @@ Make sure you have the following installed before proceeding:
 
    ```bash
    npm install
-   # or
-   yarn install
    ```
 
-3. **Configure environment variables:**
-
-   ```bash
-   cp .env.example .env
-   # Edit .env with your configuration
-   ```
-
-4. **Run the project:**
+3. **Run the project:**
 
    ```bash
    npm start
-   # or
-   yarn start
    ```
 
 ---
 
 ## Usage
 
-_Add usage examples, code snippets, or screenshots here to help users understand how to interact with the project._
+After installing, the following scripts are available:
+
+| Command           | Description                              |
+|-------------------|------------------------------------------|
+| `npm start`       | Start the Expo development server        |
+| `npm run android` | Launch the app on an Android emulator/device |
+| `npm run ios`     | Launch the app on an iOS simulator/device |
+| `npm run web`     | Open the app in a web browser            |
+
+**Example — run in browser:**
 
 ```bash
-# Example command
-npm run dev
+npm run web
+```
+
+**Example — run on Android:**
+
+```bash
+npm run android
 ```
 
 ---
@@ -92,20 +92,25 @@ npm run dev
 
 Contributions are welcome! To get started:
 
-1. Fork this repository.
-2. Create a new branch: `git checkout -b feature/your-feature-name`
-3. Make your changes and commit them: `git commit -m "feat: add your feature"`
-4. Push to your fork: `git push origin feature/your-feature-name`
-5. Open a Pull Request against the `main` branch.
+1. Fork the repository.
+2. Create a new branch for your feature or bug fix:
+   ```bash
+   git checkout -b feature/your-feature-name
+   ```
+3. Make your changes and commit them with clear messages:
+   ```bash
+   git commit -m "feat: describe your change"
+   ```
+4. Push your branch and open a Pull Request against `main`.
 
-Please ensure your code follows the existing style and all tests pass before submitting.
+Please make sure your code follows the existing style and all existing functionality continues to work before submitting a PR.
 
 ---
 
 ## License
 
-This project is licensed under the [MIT License](LICENSE).
+This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
 
 ---
 
-<p align="center">Made with ❤️ by the <a href="https://github.com/organization2025">organization2025</a> community</p>
+<p align="center">Made with ❤️ by <a href="https://github.com/organization2025">organization2025</a></p>
