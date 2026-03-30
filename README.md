@@ -1,6 +1,6 @@
-# Golden Memories
+# Project
 
-> A React Native mobile app for preserving and sharing your most treasured memories.
+> A modern, open-source project by [organization2025](https://github.com/organization2025).
 
 ---
 
@@ -9,6 +9,9 @@
 - [Overview](#overview)
 - [Features](#features)
 - [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+  - [Running the Project](#running-the-project)
 - [Usage](#usage)
 - [Contributing](#contributing)
 - [License](#license)
@@ -17,18 +20,15 @@
 
 ## Overview
 
-**Golden Memories** is a cross-platform mobile application built with React Native and Expo. It allows users to capture, store, and revisit their favorite moments in a beautiful, easy-to-use interface. The project is maintained by [organization2025](https://github.com/organization2025).
-
-Golden Memories is designed to be lightweight, intuitive, and accessible on both iOS and Android devices, as well as in a web browser via Expo Web.
+**Project** is an open-source initiative maintained by organization2025. This repository contains the source code, documentation, and assets for the project.
 
 ---
 
 ## Features
 
-- 📸 Capture and store personal memories
-- 🗂️ Organize memories by date or category
-- 📱 Cross-platform: iOS, Android, and Web
-- ⚡ Built with Expo for fast development and easy deployment
+- Clean, maintainable codebase
+- Open-source and community-driven
+- Easy to set up and extend
 
 ---
 
@@ -36,9 +36,11 @@ Golden Memories is designed to be lightweight, intuitive, and accessible on both
 
 ### Prerequisites
 
-- [Node.js](https://nodejs.org/) (v16 or higher recommended)
-- [npm](https://www.npmjs.com/) (comes with Node.js)
-- [Expo CLI](https://docs.expo.dev/get-started/installation/)
+Make sure you have the following installed before proceeding:
+
+- [Node.js](https://nodejs.org/) (v18 or higher recommended)
+- [npm](https://www.npmjs.com/) or [yarn](https://yarnpkg.com/)
+- [Git](https://git-scm.com/)
 
 ### Installation
 
@@ -53,36 +55,23 @@ Golden Memories is designed to be lightweight, intuitive, and accessible on both
 
    ```bash
    npm install
+   # or
+   yarn install
    ```
 
-3. **Run the project:**
+### Running the Project
 
-   ```bash
-   npm start
-   ```
+```bash
+npm start
+# or
+yarn start
+```
 
 ---
 
 ## Usage
 
-After starting the development server with `npm start`, you can run the app on your preferred platform using the following commands:
-
-- **Android:**
-  ```bash
-  npm run android
-  ```
-
-- **iOS:**
-  ```bash
-  npm run ios
-  ```
-
-- **Web:**
-  ```bash
-  npm run web
-  ```
-
-Expo will open a browser tab with the Metro bundler. Follow the on-screen instructions to launch the app on a simulator, emulator, or physical device via the Expo Go app.
+After starting the project, follow any on-screen instructions or refer to the documentation in the `/docs` folder (if available) for detailed usage guides.
 
 ---
 
@@ -91,21 +80,19 @@ Expo will open a browser tab with the Metro bundler. Follow the on-screen instru
 Contributions are welcome! To get started:
 
 1. Fork the repository.
-2. Create a new branch for your feature or bugfix:
-   ```bash
-   git checkout -b feature/your-feature-name
-   ```
-3. Make your changes and commit them with clear messages.
-4. Push your branch and open a pull request against `main`.
+2. Create a new branch: `git checkout -b feature/your-feature-name`
+3. Make your changes and commit them: `git commit -m "feat: add your feature"`
+4. Push to your fork: `git push origin feature/your-feature-name`
+5. Open a Pull Request against the `main` branch.
 
-Please ensure your code follows the existing project conventions and that all existing functionality continues to work before submitting.
+Please follow the existing code style and include relevant tests where applicable.
 
 ---
 
 ## License
 
-This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
+This project is licensed under the [MIT License](LICENSE).
 
 ---
 
-*Golden Memories — cherish every moment.*
+> For questions or support, please [open an issue](https://github.com/organization2025/Project/issues).
