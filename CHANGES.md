@@ -1,5 +1,7 @@
 # Changelog
 
-## Unreleased
+## [Unreleased]
 
-- Initial work related to issue #12. Further user-facing changes will be documented here as they are introduced.
+### Added
+- Initial scaffolding in response to issue #12.
+- Please see the open pull request for context and clarification questions.
